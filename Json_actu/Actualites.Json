@@ -1,0 +1,26 @@
+[
+  {
+    "titre": "Actualité 1",
+    "description": "Découvrez notre dernière actualité concernant Anolix.",
+    "image": "./images/images_actu.png",
+    "lien": "#"
+  },
+  {
+    "titre": "Actualité 2",
+    "description": "Anolix annonce une nouvelle collaboration avec un partenaire industriel.",
+    "image": "./images/images_actu.png",
+    "lien": "#"
+  },
+  {
+    "titre": "Actualité 3",
+    "description": "Retrouvez les nouveautés de notre entreprise.",
+    "image": "./images/images_actu.png",
+    "lien": "#"
+  },
+  {
+    "titre": "Actualité 4",
+    "description": "Anolix continue son développement industriel.",
+    "image": "./images/images_actu.png",
+    "lien": "#"
+  }
+]
