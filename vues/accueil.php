@@ -6,7 +6,7 @@
         <div class="row align-items-center">
 
             <div class="col-3">
-                <img src="./images/Logos_Anolix/Logo_Blanc_Rouge 2.svg" alt="Anolix" class="logo">
+                <img src="./images/Logos_Anolix/Logo_Blanc_rouge 2.svg" alt="" class="logo">
             </div>
 
             <div class="col-6 d-flex justify-content-center">
@@ -37,11 +37,26 @@
             </div>
 
         </div>
+
+    </div>
+    <div class="hero-main">
+        <div class="Text-head">
+            <strong>
+                GEKKO TAPE, CAD <br>
+                et Techni-Adhésifs <br>
+            </strong>
+            <span>DEVIENNENT</span>
+
+            <img src="./images/Logos_Anolix/Logo_Blanc.png" alt="Anolix" class="big-logo">
+
+            <p>Nos expertises deviennent votre force</p>
+        </div>
+
+        <div class="img-head">
+            <img src="./images/1.png" alt="">
+        </div>
     </div>
 
-    <div class="container hero-content">
-        <img src="./images/img_Home-page.png" alt="image Home Anolix">
-    </div>
 </section>
 
 <section class="main fade-section">
@@ -136,22 +151,22 @@
     <div class="container certif-title">
         <h4>Anolix est transformateur agréé et certifié par les principaux fabricants reconnus dans le monde entier</h4>
         <div class="certif-img row">
-            <div class="col-md-2 col-lg-2">
+            <div class="col-md-2 col-lg-2 logo-3M">
                 <img src="./images/logos_partenaires/logo_3M.svg" alt="Certifications">
             </div>
-            <div class="col-md-2 col-lg-2">
+            <div class="col-md-2 col-lg-2 logo-tesa">
                 <img src="./images/logos_partenaires/logo_tesa.svg" alt="Certifications">
             </div>
-            <div class="col-md-2 col-lg-2">
+            <div class="col-md-2 col-lg-2 logo-nitto">
                 <img src="./images/logos_partenaires/logo_Nitto.svg" alt="Certifications">
             </div>
-            <div class="col-md-2 col-lg-2">
+            <div class="col-md-2 col-lg-2 logo-gobain">
                 <img src="./images/logos_partenaires/logo_Saint_Gobain.svg" alt="Certifications">
             </div>
-            <div class="col-md-2 col-lg-2">
+            <div class="col-md-2 col-lg-2 logo-aderis">
                 <img src="./images/logos_partenaires/logo_Aderis.png" alt="Certifications">
             </div>
-            <div class="col-md-2 col-lg-2">
+            <div class="col-md-2 col-lg-2 logo-klingspor">
                 <img src="./images/logos_partenaires/logo_Kligspor.svg" alt="Certifications">
             </div>
         </div>

@@ -4,12 +4,12 @@
 
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: "noto sans";
 }
 
 .hero {
     position: relative;
-    min-height: 100vh;
+    min-height: 130vh;
     background: url("../images/Shooting Gekko Tape - ┬®Marat_Anaev-75.jpg") center/cover no-repeat;
     overflow: hidden;
     background-attachment: fixed;
@@ -40,8 +40,9 @@ body {
 }
 
 .logo {
-    width: 130px;
+    width: 200px;
     height: auto;
+    padding: 0 25px 8px;
 }
 
 .custom-navbar {
@@ -83,6 +84,62 @@ body {
     padding: 0 25px 8px;
 }
 
+.hero-main {
+    position: absolute;
+    inset: 0;
+    z-index: 5;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Text-head {
+    position: absolute;
+    left: 19%;
+    top: 45%;
+    transform: translateY(-25%);
+
+    color: #ffc400;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 1.15;
+    z-index: 8;
+}
+
+.Text-head span {
+    display: block;
+    margin-left: 70px;
+    font-family: "Permanent Marker", cursive;
+    font-size: 36px;
+}
+
+.big-logo {
+    width: 430px;
+}
+
+.Text-head p {
+    color: #ffc400;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 500;
+    margin: 0;
+}
+
+.img-head {
+    position: absolute;
+    right: 15%;
+    top: 51%;
+    transform: translateY(-50%);
+    z-index: 7;
+    padding-top: 150px;
+}
+
+.img-head img {
+    width: 430px;
+    height: auto;
+}
+
 .hero-content {
     position: relative;
     z-index: 5;
@@ -106,6 +163,7 @@ body {
 .hero-content h1 span {
     color: #ffc400;
     font-style: italic;
+    font-family: "permanent marker", cursive;
 }
 
 .hero-content h2 {
@@ -120,7 +178,9 @@ body {
     font-size: 13px;
     font-style: italic;
     font-weight: 700;
+    font-family: "permanent marker";
 }
+
 
 
 #btn-toggle-menu-mobile {
@@ -157,7 +217,7 @@ body {
 
 .main-title h1 span {
     color: #ffc400;
-    font-family: cursive;
+    font-family: "permanent marker";
 }
 
 
@@ -177,8 +237,8 @@ body {
 }
 
 .stat-line {
-    width: 70px;
-    height: 2px;
+    width: 100px;
+    height: 1px;
     background: #d63b3b;
     margin: 0 auto 8px;
 }
@@ -247,7 +307,7 @@ body {
 .slogan-section {
     position: relative;
     min-height: 50vh;
-    background: rgb(235, 235, 235);
+    background: url("../images/BG_pattes.jpg") no-repeat;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -261,12 +321,12 @@ body {
 .slogan-text span {
     color: #9b0707;
     font-style: italic;
-    font-family: "Permanent Marker", cursive;
+    font-family: "permanent marker";
 }
 
 
 .footer {
-    background: #001a78;
+    background: url("../images/BG_footer.jpg") center/cover no-repeat;
     color: #fff;
     text-align: center;
     padding-top: 65px;
@@ -282,6 +342,7 @@ li {
     color: #ffffff;
     text-decoration: none;
     list-style: none;
+    font-size: 10px;
 }
 
 .footer img {
